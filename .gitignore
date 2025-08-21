@@ -7,8 +7,12 @@ yarn-error.log*
 # Production build
 build/
 dist/
+.next/
+out/
 node_modules/
-.next
+
+# Next.js specific
+.vercel
 # Environment variables
 .env
 .env.local
